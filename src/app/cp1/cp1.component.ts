@@ -22,7 +22,6 @@ export class Cp1Component implements OnInit {
 
    doEval(){
     let result = eval(this.opVal);
-    console.log(result)
     this.opVal = result;
   }
 
